@@ -1,0 +1,14 @@
+{
+  "name": "clase06",
+  "version": "1.0.0",
+  "description": "clase 06 demo",
+  "main": "ejemplo01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clase 06 en coderhouse",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
