@@ -1,0 +1,14 @@
+<div>
+    {{#if role}}
+        {{#each users}}
+            <p>Nombre: {{this.name}}</p>
+            <p>Apellido: {{this.lastname}}</p>
+            <p>Edad: {{this.age}}</p>
+            <p>Telefono: {{this.phone}}</p>
+            <p>Correo: {{this.email}}</p>
+            <p>-------------------------------------</p>
+        {{/each}}
+    {{else}}
+        <h1>No tienes Permiso!!</h1>
+    {{/if}}
+</div>
