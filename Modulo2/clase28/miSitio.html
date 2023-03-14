@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio</title>
+</head>
+<body>
+    <h1>Saludos desde el HTML</h1>
+    <button onclick="presionar()">clickea</button>
+    <script>
+        function presionar(){
+            console.log("Hola clase");
+            fetch("http://localhost:8080/",{
+                method: "GET"
+            })
+            .then((res) => res.json())
+            .then((data) => console.log(data))
+            .catch((err) => console.log(err));
+        }
+    </script>
+</body>
+</html>
